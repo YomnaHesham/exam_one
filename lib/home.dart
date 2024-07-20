@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: Text("Hello"),
+          title: Text("Hello",),
           backgroundColor: Colors.amber,
           actions: [
             badges.Badge(
